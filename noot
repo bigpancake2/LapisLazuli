@@ -1,0 +1,9 @@
+var bot = require("discord-music-bot");
+ 
+var serverName = "Fin's Deli";
+var textChannelName = "general";
+var voiceChannelName = "General";
+var aliasesFile = "noot";
+var botToken = "NDYyMzk0MTEzOTA4ODAxNTU2.DhhN9w.j7tHYbOc245Gt9wxitFFhO7pnAg";
+ 
+bot.run(serverName, textChannelName, voiceChannelName, aliasesFile, botToken);
